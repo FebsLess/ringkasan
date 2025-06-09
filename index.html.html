@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ringkasan Materi - Belajar Teknik Sipil</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1A365D;
+      --accent: #4299E1;
+      --light: #F7FAFC;
+      --text: #2D3748;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--light);
+      color: var(--text);
+      line-height: 1.6;
+      padding-bottom: 100px;
+    }
+
+    header {
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+      background-color: var(--primary);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+      color: var(--primary);
+      text-align: center;
+    }
+
+    .ringkasan-materi {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .card-materi {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
+    .card-materi:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-materi h3 {
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+
+    .card-materi p {
+      font-size: 0.95rem;
+    }
+
+    .back {
+      display: block;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .back a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .back a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ringkasan Materi</h1>
+    <p>Rangkuman dari semua topik pembelajaran teknik sipil yang telah tersedia</p>
+  </header>
+
+  <section class="section">
+    <h2>Daftar Ringkasan Materi</h2>
+    <div class="ringkasan-materi">
+      <a href="tujuan.html" class="card-materi">
+        <h3>Pengantar Teknik Sipil</h3>
+        <p>Mempelajari sejarah teknik sipil, fungsi insinyur sipil, dan cakupan pekerjaan mereka dalam membangun infrastruktur masyarakat.</p>
+      </a>
+      <a href="tujuan.html" class="card-materi">
+        <h3>Struktur Bangunan</h3>
+        <p>Menjelaskan komponen struktur seperti balok, kolom, dan pelat. Termasuk pemahaman dasar tentang sistem rangka dan beban bangunan.</p>
+      </a>
+      <a href="tujuan.html" class="card-materi">
+        <h3>Hidrolika & Drainase</h3>
+        <p>Membahas prinsip dasar aliran air, saluran terbuka dan tertutup, serta strategi pengendalian banjir dan drainase kota.</p>
+      </a>
+      <a href="tujuan.html" class="card-materi">
+        <h3>Material Konstruksi</h3>
+        <p>Pengenalan pada beton, baja, kayu, dan bahan bangunan lainnya serta sifat mekanik dan aplikasinya di lapangan.</p>
+      </a>
+      <a href="tujuan.html" class="card-materi">
+        <h3>Geoteknik</h3>
+        <p>Dasar-dasar mekanika tanah, klasifikasi tanah, dan teknik pondasi untuk memastikan kestabilan bangunan.</p>
+      </a>
+      <a href="tujuan.html" class="card-materi">
+        <h3>Manajemen Proyek</h3>
+        <p>Dasar perencanaan, penjadwalan, penganggaran, dan pengendalian dalam pelaksanaan proyek teknik sipil.</p>
+      </a>
+    </div>
+    <div class="back">
+      <a href="https://febsless.github.io/website/">← Kembali ke Beranda</a>
+    </div>
+  </section>
+
+</body>
+</html>
